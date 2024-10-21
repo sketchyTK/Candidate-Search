@@ -19,7 +19,6 @@ const [outOfCandidates, stopCandidates] =useState(false);
     }
 }, []);
 
-
   const fetchRandomCandidate = async () => {
     setLoading(true);
     const users = await searchGithub();
@@ -59,6 +58,7 @@ const hideCandidateButton = () => {
                 <img src={candidate.avatar_url} alt={candidate.name} width="200" height="200"/>
                 <p>Location: {candidate.location || 'Not Available'}</p>
                 <p>Email: <a href={`mailto:${candidate.email || 'Not Available'}`}>{candidate.email || 'Not Available'}</a></p>
+                <p>GitHub URL: <a href={`${candidate.html_url || 'Not Available'}`} target="_blank">{candidate.html_url || 'Not Available'}</a></p>
                 <p>Company: {candidate.company || 'Not Available'}</p>
                 <p>Bio: {candidate.bio || 'Not Available'}</p>
                 <div>

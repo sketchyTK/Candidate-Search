@@ -4,7 +4,7 @@ export interface Candidate {
   company: string;
   location: string;
   avatar_url: string;
-  url: string;
+  html_url: string;
   email: string;
   bio: string;  
 }
