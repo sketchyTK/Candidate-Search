@@ -1,33 +1,36 @@
-# React + TypeScript + Vite
+# Candidate Search
+![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="candidate-search-screen-shot.png" alt="Screenshot of Candidate Search page" width="100%" height="auto">
 
-Currently, two official plugins are available:
+## Description
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+Web Application allowing users to search potential employees via GitHub's userbase.
 
-## Expanding the ESLint configuration
+## Table of Contents
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Questions](#questions)
+- [License](#license)
 
-* Configure the top-level `parserOptions` property as follows:
+## Installation<a id="installation"></a>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+No installation required. Application is deployed on Render.
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+## Usage<a id="usage"></a>
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+A random Github user will appear. If you like them, click on the green plus button. If you do not like them, click on the red minus button. Either button will generate a new Github user. The plus button will save the user to your list of Potential Candidates. Click on the Potential Candidates link to view your selected candidates. You can view them in a table and remove any candidates with the Reject button.
+
+## Contributing <a id="contributions"></a>
+
+## Questions<a id="questions"></a>
+
+Here is a link to my Github Profile: <a href="https://github.com/sketchyTK">Sketchy TK</a>
+
+## License
+Please View https://opensource.org/licenses/gpl-3.0 for more information on this license.
+
+## Live Deployment
+
+<a href="https://candidate-search-1-ub22.onrender.com/">Live Deployment on Render</a>
