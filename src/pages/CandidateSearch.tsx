@@ -69,7 +69,7 @@ const hideCandidateButton = () => {
             ) : (
               <h2>No Candidate to Display</h2>
             )
-          }; 
+          } 
   </div>
   );
   
